@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlogNest</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Welcome to BlogNest</h1>
+
+        {% for post in posts %}
+            <div class="post-preview">
+                <h2><a href="{% url 'post_detail' post.slug %}">{{ post.title }}</a></h2>
+                <p class="meta">By {{ post.author }} on {{ post.created_at|date:"F j, Y" }}</p>
+                <p>{{ post.content|truncatechars:200 }}</p>
+                <a href="{% url 'post_detail' post.slug %}">Read more →</a>
+            </div>
+        {% empty %}
+            <p>No blog posts found.</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
