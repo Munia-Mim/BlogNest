@@ -46,8 +46,8 @@ Follow the prompts for username, email, and password.
 python manage.py runserver
 
 Now open in your browser:
-🔗 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) — homepage
-🔐 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) — admin panel
+🔗 [http://127.0.0.1:8000/](http://127.0.0.1:8000/) — homepage  
+🔐 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) — admin panel  
 
 
 ## 📁 Project Structure (Detailed)
