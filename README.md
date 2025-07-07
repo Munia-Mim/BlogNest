@@ -17,7 +17,7 @@ Perfect for beginners to learn how Django apps work using models, views, templat
 
 If you're using Git:
 
-git clone https://github.com/your-username/BlogNest.git
+git clone https://github.com/Munia-Mim/BlogNest.git
 
 cd BlogNest
 
@@ -54,32 +54,32 @@ Now open in your browser:
 
 Blog-Website/
 │
-├── blog/                      # The blog app
-│   ├── migrations/            # Auto-created DB migration files
-│   ├── templates/
-│   │   └── blog/
-│   │       ├── home.html      # Blog homepage template
-│   │       └── post_detail.html # Blog post detail view
-│   ├── __init__.py
-│   ├── admin.py               # Admin config for Post model
-│   ├── apps.py
-│   ├── models.py              # Post model definition
-│   ├── tests.py
-│   └── views.py               # Views for list & detail
-│
-├── blog_project/              # Project settings and URLs
-│   ├── __init__.py
-│   ├── settings.py            # Settings file (edited for static/css support)
-│   ├── urls.py                # Main URL routing
-│   └── wsgi.py
-│
-├── static/
-│   └── style.css              # Global CSS styles for the blog
-│
-├── db.sqlite3                 # Default SQLite database
-├── manage.py                  # Django management script
-├── venv/                      # Virtual environment (not uploaded to GitHub)
-└── README.md                  # This file
+├── blog/                      # The blog app  
+│   ├── migrations/            # Auto-created DB migration files  
+│   ├── templates/  
+│   │   └── blog/  
+│   │       ├── home.html      # Blog homepage template  
+│   │       └── post_detail.html # Blog post detail view  
+│   ├── __init__.py  
+│   ├── admin.py               # Admin config for Post model  
+│   ├── apps.py  
+│   ├── models.py              # Post model definition  
+│   ├── tests.py  
+│   └── views.py               # Views for list & detail  
+│  
+├── blog_project/              # Project settings and URLs  
+│   ├── __init__.py  
+│   ├── settings.py            # Settings file (edited for static/css support)  
+│   ├── urls.py                # Main URL routing  
+│   └── wsgi.py  
+│  
+├── static/  
+│   └── style.css              # Global CSS styles for the blog  
+│  
+├── db.sqlite3                 # Default SQLite database  
+├── manage.py                  # Django management script  
+├── venv/                      # Virtual environment (not uploaded to GitHub)  
+└── README.md                  # This file  
 
 ## 📸 Screenshots
 
