@@ -50,11 +50,11 @@ Now open in your browser:
 🔐 [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) — admin panel  
 
 
-## 📁 Project Structure (Detailed)
-
-Blog-Website/
-│
-├── blog/                      # The blog app  
+## 📁 Project Structure (Detailed)  
+  
+Blog-Website/  
+│  
+├── blog/                      # The blog app    
 │   ├── migrations/            # Auto-created DB migration files  
 │   ├── templates/  
 │   │   └── blog/  
